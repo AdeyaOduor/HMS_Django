@@ -1,7 +1,15 @@
 **Install the Requirements** 
 sudo apt install -y python3-pip
-sudo apt install -y python3-venv
+sudo apt install -y python3-venv OR sudo pip3 install virtualenv
+
+**Start project***
+mkdir HMS
+cd HMS
+virtualenv venv -p python3
+source venv/bin/activate
 pip install Django==4.0.3
+django-admin startproject HMS
+django-admin startapp HMS
 
 **tests installation**
 django-admin.py --version 
