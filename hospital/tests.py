@@ -1,7 +1,7 @@
 from django.test import TestCase
 from hospital.models import models.Model
 
-
+"""""""""
 class PatientDischargeDetails(models.Model):
     def patientDetails(self):
         patientId=models.PositiveIntegerField(null=True)
@@ -22,3 +22,4 @@ class PatientDischargeDetails(models.Model):
         doctorFee=models.PositiveIntegerField(null=False)
         OtherCharge=models.PositiveIntegerField(null=False)
         total=models.PositiveIntegerField(null=False)
+""""""""""""""""""""""
