@@ -2,6 +2,9 @@
 sudo apt install -y python3-pip
 sudo apt install -y python3-venv OR sudo pip3 install virtualenv
 
+**tests installation**
+django-admin.py --version 
+
 **Start project***
 mkdir HMS
 cd HMS
@@ -10,9 +13,6 @@ source venv/bin/activate
 pip install Django==4.0.3
 django-admin startproject HMS
 django-admin startapp HMS
-
-**tests installation**
-django-admin.py --version 
 
 **Make database migrations**
 python manage.py makemigrations
