@@ -12,7 +12,7 @@ virtualenv venv -p python3
 source venv/bin/activate
 pip install Django==4.0.3
 django-admin startproject HMS
-django-admin startapp HMS
+django-admin startapp hospital
 
 **Make database migrations**
 python manage.py makemigrations
