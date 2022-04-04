@@ -15,6 +15,7 @@ django-admin startproject HMS
 django-admin startapp hospital
 
 **Make database migrations** # create the database so we can start using it
+# activate the virtual environment, go to the folder where the manage.py file is, and run the commands below:
 python manage.py makemigrations
 python manage.py migrate
 
