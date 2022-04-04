@@ -14,7 +14,7 @@ pip install Django==4.0.3
 django-admin startproject HMS
 django-admin startapp hospital
 
-**Make database migrations**
+**Make database migrations** # create the database so we can start using it
 python manage.py makemigrations
 python manage.py migrate
 
