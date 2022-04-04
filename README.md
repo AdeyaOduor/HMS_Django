@@ -1,6 +1,8 @@
 **Install the Requirements** 
 sudo apt install -y python3-pip
-sudo apt install -y python3-venv OR sudo pip3 install virtualenv
+sudo apt install -y python3-venv 
+         OR 
+sudo pip3 install virtualenv
 
 **tests installation**
 django-admin.py --version 
@@ -15,8 +17,9 @@ django-admin startproject HMS
 django-admin startapp hospital
 
 **Make database migrations** # create the database so we can start using it
-# activate the virtual environment, go to the folder where the manage.py file is, and run the commands below:
+#activate the virtual environment, go to the folder where the manage.py file is, and run the commands below:
 python manage.py makemigrations
+python manage.py sqlmigrate hospital 0001
 python manage.py migrate
 
 **Create HMS project**
