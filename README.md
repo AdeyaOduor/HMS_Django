@@ -1,8 +1,7 @@
-**Install the Requirements** 
+**Install the Requirements using linux terminal** 
 sudo apt install -y python3-pip
-sudo apt install -y python3-venv 
-         OR 
-sudo pip3 install virtualenv
+python3 --version
+pip3 install pipenv
 
 **tests installation**
 django-admin.py --version 
