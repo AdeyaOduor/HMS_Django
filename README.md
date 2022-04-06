@@ -15,6 +15,8 @@ ctrl + C #stops server from terminal
 
 **in VScode**
 search python interpreter and copy path from <pipenv--Venv> , include </bin/python> at the end and enter
+#in case of syntax error just open another terminal to activate virtual environment or enter the following cmd:
+source venv/bin/activate
 python manage.py runserver #copy the url generated to browser to view page
 
 
@@ -34,7 +36,6 @@ python manage.py runserver
 django-admin.py --version 
 
 virtualenv venv -p python3
-source venv/bin/activate
 pip install Django==4.0.3
 django-admin startapp hospital
 """
