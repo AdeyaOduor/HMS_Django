@@ -3,12 +3,13 @@ from django.contrib.auth.models import User
 
 
 
-departments=[('Cardiologist','Cardiologist'),
+departments=[('Clinicain','Clinician'),('Cardiologist','Cardiologist'),
 ('Dermatologists','Dermatologists'),
 ('Emergency Medicine Specialists','Emergency Medicine Specialists'),
 ('Allergists/Immunologists','Allergists/Immunologists'),
-('Anesthesiologists','Anesthesiologists'),
+('Anesthesiologists','Anesthesiologists'),('Pharmacy','Pharmacy'),
 ('Colon and Rectal Surgeons','Colon and Rectal Surgeons')
+('Nurse Station','Nurse Station'),('Laboratory','Laboratory')
 ]
 class Doctor(models.Model):
     user=models.OneToOneField(User,on_delete=models.CASCADE)
