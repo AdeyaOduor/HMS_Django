@@ -30,3 +30,4 @@ python manage.py migrate
 
 **For Admin Account, please create one with superuser!**
 python manage.py createsuperuser
+#then enter admin credentials i.e email, username and password.
