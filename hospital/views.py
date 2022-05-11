@@ -96,9 +96,6 @@ def patient_signup_view(request):
 
 
 
-
-
-
 #-----------for checking user is doctor , patient or admin(by sumit)
 def is_admin(user):
     return user.groups.filter(name='ADMIN').exists()
